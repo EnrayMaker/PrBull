@@ -6,10 +6,11 @@ const Router = require("./Router.js");
 const DB_URL = `mongodb://localhost:27017/`;
 const PORT = 5000;
 const app = express();
-//
 
 //app.use(express.static("Backend/static"));
 //app.use(fileuploader({}));
+//app.use(epress.json());
+app.use(express.json());
 app.use("/api", Router);
 
 async function StartApp() {
