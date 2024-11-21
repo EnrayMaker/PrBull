@@ -42,7 +42,9 @@ build/Release
 node_modules/
 jspm_packages/
 uploads/
+python/
 static/
+html/
 2.txt
 1.py
 # Snowpack dependency directory (https://snowpack.dev/)
